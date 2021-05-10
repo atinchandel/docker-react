@@ -5,7 +5,7 @@ services:
 before_install:
   - docker build -t atindocker/docker-react -f Dockerfile.dev .
   
-script:
+# script:
    #docker run atindocker/docker-react npm run test -- --coverage
   #- docker run atindocker/docker-react 
 
